@@ -1,2 +1,2 @@
-# amharic-handwritten-character-dataset
+# Amharic Handwritten Character Dataset
 Edit this one

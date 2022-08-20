@@ -1,0 +1,26 @@
+The Amharic Handwritten Character Dataset
+==========================================
+* This is an Amharic handwritten character dataset
+* The dataset is organized from [1] (e.g. see 'Ahw_71.jpg') by extracting the isolated characters using bounding box annotation tool [3]
+* 'Character Images' folder contains 46,375 character bounding box gray scale images (265 amharic characters X 175 writers)
+* The name of the character images for example:'Amh_23_165' means 'Amharic_CharacterID/label_WriterID'
+* There are three numpy files: Amh_train_set.npy, Amh_valid_set.npy, and Amh_test_set.npy
+* The above three files have 39750 X 5, 3975 X 5, and 2650 X 5 shapes respectively
+	-> 39750 = 265 characters X 150 writers
+	-> 3975 = 265 characters X 15 writers
+	-> 2650 = 265 characters X 10 writers
+	-> Finally the 5 columns hold [32x32] image data, label, row, col, and writerID
+* The row and col are given as per 'Amharic Characters.pdf' which is organized and pronounced following [2]
+* The labels however are given as per 'Ahw_71.jpg' in their writing order from 1-265
+* The writerIDs are directly used from the file names identifying the writers 
+* WriterIDs are given from 1 - 218 as the participants were 218
+* However, it was identified that only 175 participants have fully completed the writing
+* The access and usage of the original unsegmented image dataset is by the permission of authors [1]. Hence, you must get the same permission from these authors to use this dataset for any purpose. 
+
+References:
+----------
+[1] Assabie Y, Bigun J (2009) A comprehensive Dataset for Ethiopic Handwriting Recognition. In: Proceedings SSBA ’09 : Symposium on Image Analysis, Halmstad University, pp 41–43
+[2] Wikipedia contributors. (2019, October 25). Amharic. In Wikipedia, The Free Encyclopedia. Retrieved 23:25, October 28, 2019, from https://en.wikipedia.org/w/index.php?title=Amharic&oldid=922895000
+[3] Tzutalin. LabelImg. Git code (2015). https://github.com/tzutalin/labelImg
+
+

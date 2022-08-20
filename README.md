@@ -4,7 +4,8 @@ This repository contains two datasets. The first one is Amharic Handwritten Char
 ## How to cite:
 * If you use Amharic Handwritten Character Dataset in a scientific publication, please make sure you have got the permission from Assabie and Bigun [1] and cite the following paper. 
 
-[1] Y. Assabie and J. Bigun, ‘A comprehensive Dataset for Ethiopic Handwriting Recognition’, in Proceedings SSBA ’09 : Symposium on Image Analysis, Halmstad University, Halmstad, March 18-20, 2009, Halmstad: Halmstad University, 2009, pp. 41–43.
+[1] Assabie, Y., & Bigun, J. (2009). A comprehensive Dataset for Ethiopic Handwriting Recognition. In Proceedings SSBA ’09 : Symposium on Image Analysis, Halmstad University, Halmstad, March 18-20, 2009 (pp. 41–43). Retrieved from http://urn.kb.se/resolve?urn=urn:nbn:se:hh:diva-25833
+[2] Gondere, M. S., Schmidt-Thieme, L., Sharma, D. P., & Boltena, A. S. (2022). Improving Amharic Handwritten Word Recognition Using Auxiliary Task. arXiv preprint arXiv:2202.12687.
 
   CRNN paper including the link to the paper 
 * However, if you use Amharic Handwritten Character Dataset for Few-shot Learning in a scientific publication, we would appreciate references to the following paper:
